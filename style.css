@@ -1,0 +1,37 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.board{
+    height: 960px;
+    width: 960px;
+    display: grid;
+    border-radius: 14px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: gold;
+    color: black;
+}
+#ersr{
+    color: aliceblue;
+}
+#blck{
+    color: black;
+}
+#blu{
+    color: blue;
+}
+#green{
+    color: green;
+}
+#red{
+    color: red;
+}
