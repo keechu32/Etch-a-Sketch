@@ -5,33 +5,69 @@
     height: 960px;
     width: 960px;
     display: grid;
-    border-radius: 14px;
+    margin-top: 16px;
+    border: red 5px solid;
+    border-radius: 10px;
+    background: red;
 }
 body{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 button{
     padding: 10px;
     border-radius: 6px;
     font-size: 16px;
-    background-color: gold;
+    background-color: white;
     color: black;
 }
 #ersr{
     color: aliceblue;
-}
-#blck{
-    color: black;
+    background-color: black;
 }
 #blu{
-    color: blue;
+    background-color: blue;
 }
 #green{
-    color: green;
+    background-color: green;
 }
 #red{
-    color: red;
+    background-color: red;
+}
+#yell{
+    background-color: yellow;
+}
+.button{
+    padding-top: 40px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+h1{
+    color: antiquewhite;
+}
+.title{
+    color: antiquewhite;
+    display: flex;
+    flex: 0 1;
+    color: black;
+    align-self: center;
+    justify-content: center;
+}
+.mode{
+    display: flex;
+    align-self: center;
+    justify-content: center ;
+    color: aliceblue;
+    font-size: 18px;
+}
+.size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 }

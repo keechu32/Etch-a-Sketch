@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
     <link rel="Stylesheet" href="style.css">
-    <title>Etch-a-Sketch</title>    
+    <title>Etch-a-Sketch</title>
 </head>
+
 <body>
     <div id="container">
-        <div class="title"><h1>Etch-a-Sketch</h1></div>
+        <div class="title">
+            <h1>Etch-a-Sketch</h1>
+        </div>
         <div class="content">
-            <div>
-                <input 
-                type="text" 
-                placeholder="Grid Size" 
-                value="16" 
-                onchange="changeSize(this.value)"/> 
-                <button>Set size</button>
+            <div class="size">
+                <input type="text" placeholder="Grid Size" value="16" onchange="changeSize(this.value)" />
+                <button>Set size (Max:100 Min:2)</button>
             </div>
             <div class="board"></div>
             <div class="button">
                 <button id="ersr" onclick="colorChange('White')">Eraser</button>
                 <button id="blck" onclick="colorChange('Black')">Black</button>
+                <button id="yell" onclick="colorChange('Yellow')">Yellow</button>
                 <button id="red" onclick="colorChange('Red')">Red</button>
                 <button id="green" onclick="colorChange('Green')">Green</button>
                 <button id="blu" onclick="colorChange('Blue')">Blue</button>
@@ -34,4 +35,5 @@
         </div>
     </div>
 </body>
+
 </html>
